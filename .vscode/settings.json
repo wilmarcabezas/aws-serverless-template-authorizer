@@ -1,0 +1,17 @@
+{
+    "serverlessConsole.services": [
+        {
+            "type": "cloudformation",
+            "title": "test2",
+            "timeOffsetInMs": 0,
+            "awsProfile": "default",
+            "stacks": [
+                {
+                    "region": "us-west-1",
+                    "stackName": "notes-api-basic-dev",
+                    "stage": "dev"
+                }
+            ]
+        }
+    ]
+}
