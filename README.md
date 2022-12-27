@@ -10,7 +10,7 @@ La función principal `handler` es la encargada de manejar las peticiones de aut
 
 ## ¿Cómo usar este código?
 
-1 .Crea una función Lambda en AWS y configúrala para que se ejecute este código.
+1. Crea una función Lambda en AWS y configúrala para que se ejecute este código.
 2. Asocia la función Lambda a un recurso de API Gateway como un "authorizer" para manejar la autorización de peticiones a la API.
 3. Configura los valores de token de autorización que deseas permitir o denegar en la función handler.
 4. Envía peticiones a la API Gateway con un token de autorización especificado en la cabecera de autorización para comprobar el funcionamiento de la autorización.
